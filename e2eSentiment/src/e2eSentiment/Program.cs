@@ -84,7 +84,7 @@ namespace e2eSentiment
                                 }
                             });
 
-                //Load training data
+                //Load training data 😒😒😒
             IDataView trainingDataView = reader.Read(new MultiFileSource(dataPath));
             return trainingDataView;
         }
