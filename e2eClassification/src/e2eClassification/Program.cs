@@ -11,7 +11,7 @@ namespace e2eClassification
 {
     class Program
     {
-        static readonly string _dataPath = Path.Combine("C:\\src\\leeds", "data", "iris.data");
+        static readonly string _dataPath = Path.Combine("C:\\src\\userGroup-ML", "data", "iris.data");
         static readonly string _modelPath = Path.Combine(Environment.CurrentDirectory, "trained", "IrisClusteringModel.zip");
         static async Task Main(string[] args)
         {

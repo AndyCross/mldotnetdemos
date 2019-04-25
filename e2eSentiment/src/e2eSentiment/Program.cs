@@ -13,9 +13,9 @@ using Microsoft.ML.Core.Data;
 namespace e2eSentiment
 {
     class Program
-    {
-        static readonly string _dataPath = Path.Combine("C:\\src\\leeds", "Data", "wikipedia-detox-250-line-data.tsv");
-        static readonly string _testDataPath = Path.Combine("C:\\src\\leeds", "Data", "wikipedia-detox-250-line-test.tsv");
+    {userGroup-ML
+        static readonly string _dataPath = Path.Combine("C:\\src\\userGroup-ML", "Data", "wikipedia-detox-250-line-data.tsv");
+        static readonly string _testDataPath = Path.Combine("C:\\src\\userGroup-ML", "Data", "wikipedia-detox-250-line-test.tsv");
         static readonly string _modelpath = Path.Combine(Environment.CurrentDirectory, "trained", "Model.zip");
         
         static async Task Main(string[] args)

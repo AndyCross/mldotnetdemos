@@ -14,8 +14,8 @@ namespace e2eRegression
     class Program
     {
         
-        static readonly string _dataPath = Path.Combine("C:\\src\\leeds", "Data", "taxi-fare-train.csv");
-        static readonly string _testDataPath = Path.Combine("C:\\src\\leeds", "Data", "taxi-fare-test.csv");
+        static readonly string _dataPath = Path.Combine("C:\\src\\userGroup-ML", "Data", "taxi-fare-train.csv");
+        static readonly string _testDataPath = Path.Combine("C:\\src\\userGroup-ML", "Data", "taxi-fare-test.csv");
         static readonly string _modelpath = Path.Combine(Environment.CurrentDirectory, "trained", "Model.zip");
 
         static async Task Main(string[] args)

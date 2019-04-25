@@ -11,8 +11,8 @@ namespace TaxiFarePrediction
         {
             VendorId = "VTS",
             RateCode = "1",
-            PassengerCount = 1,
-            TripDistance = 10.33f,
+            PassengerCount = 2,
+            TripDistance = 15.33f,
             PaymentType = "CSH",
             FareAmount = 0 // predict it. actual = 29.5
         };
